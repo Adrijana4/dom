@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="slika">
+            <img src="person-1824147_1280.webp" alt="slika">
+        </div>
+        <div id="podaci">
+            <label for="ime">Ime:</label>
+            <input id="ime" name="ime" type="text" placeholder="unesite vase ime">
+            <br>
+            <label for="prezime">Prezime:</label>
+            <input id="prezime" name="prezime" type="text" placeholder="unesite vase prezime">
+            <br>
+            <label for="JMBG">JMBG:</label>
+            <input id="JMBG" name="JMBG" type="number" placeholder="unesite vas JMBG">
+            <br>
+            <label for="godinaRodjenja">Godina rodjenja:</label>
+            <input id="godinaRodjenja" name="godinaRodjenja" type="number" placeholder="unesite godinu vaseg rodjenja">
+            <br>
+            <label for="mjestoRodjenja">Mesto rodjenja:</label>
+            <input id="mjestoRodjenja" name="mjestoRodjenja" type="text" placeholder="unesite vase mjesto rodjenja">
+        </div>
+        <button onclick="prikaziPodatke()">Prikaži podatke</button>
+
+        <ul id="lista-osoba"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
